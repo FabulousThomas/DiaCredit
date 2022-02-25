@@ -177,9 +177,16 @@ header {
     margin-bottom: 1rem;
 }
 
+.container .recent-grid .grid-content p,
+.container .recent-flex .flex-content p {
+    font-size: .9rem;
+    margin-bottom: 0%;
+}
+
 .container .recent-grid .grid-content h4,
 .container .recent-flex .flex-content h4 {
     margin: 0%;
+    font-size: 1.4rem;
 }
 
 .container .recent-flex .flex-content span {
@@ -188,18 +195,16 @@ header {
 
 .container .recent-grid .grid-content span,
 .container .recent-flex .flex-content span {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: .5rem;
-    background-color: var(--color-secondary);
-    border-radius: 50%;
+    color: var(--color-secondary);
     margin: 0 0 1rem;
-    color: #fff;
 }
 
 .container .recent-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2;
+    grid-gap: 30px;
     text-align: center;
 }
 

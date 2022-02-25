@@ -20,7 +20,7 @@
 section {
     margin: 2.8rem auto;
     padding: 1rem 0 0;
-    transition: all 50000ms ease-in;
+    /* transition: all 50000ms ease-in; */
 }
 
 h1 {

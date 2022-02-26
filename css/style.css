@@ -177,10 +177,12 @@ header {
     margin-bottom: 1rem;
 }
 
-.container .recent-grid .grid-content p,
-.container .recent-flex .flex-content p {
+.container .grid-content p,
+.container .flex-content p {
     font-size: .9rem;
     margin-bottom: 0%;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
 }
 
 .container .recent-grid .grid-content h4,

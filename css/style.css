@@ -4,6 +4,7 @@
     --color-primary: #0457F1;
     --color-secondary: #0087F2;
     --color-light: #48EAFF;
+    --color-lighter: #84C0FE;
     --text-color: #444444;
 }
 
@@ -199,7 +200,7 @@ header {
 .container .recent-flex .flex-content span {
     font-size: 2.5rem;
     padding: .5rem;
-    color: var(--color-secondary);
+    color: var(--color-lighter);
     margin: 0 0 1rem;
 }
 

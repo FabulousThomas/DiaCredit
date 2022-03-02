@@ -232,6 +232,7 @@ footer {
 
 footer * {
     margin-bottom: 0%;
+    text-align: center;
 }
 
 footer section.apply {

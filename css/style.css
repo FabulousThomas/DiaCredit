@@ -71,8 +71,8 @@ body {
 
 .sidebar-menu a {
     color: #fff;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 #nav-toggle:checked+.sidebar {

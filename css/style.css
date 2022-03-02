@@ -71,8 +71,8 @@ body {
 
 .sidebar-menu a {
     color: #fff;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 #nav-toggle:checked+.sidebar {
@@ -131,7 +131,7 @@ nav label span {
 
 .nav-wrapper li a {
     padding: 1rem 1rem;
-    font-size: .8rem;
+    font-size: .9rem;
     font-weight: 500;
     text-decoration: none;
     color: var(--text-color);

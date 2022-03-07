@@ -291,6 +291,16 @@ footer .grid-content .form-group input {
     text-align: left;
 }
 
+button {
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: .5rem 1rem;
+    background-color: var(--color-secondary);
+}
+
 footer .footer-grid .grid-content div {
     margin-bottom: 1rem;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="./img/logo_w.png" type="image/x-icon">
@@ -13,185 +13,257 @@
 </head>
 
 <body>
-
-    <input type="checkbox" name="" id="nav-toggle">
-    <div class="sidebar">
-        <div class="sidebar-brand">
-            <a href=""><img src="img/logo_w.png" width="120px" alt=""></a>
-
-            <label for="nav-toggle" class="hamburger">
-                <span class="las la-times text-white"></span>
-             </label>
-        </div>
-        <div class="sidebar-menu">
-            <ul>
-                <li>
-                    <a href="">DiaCrediting</a>
-                </li>
-                <li>
-                    <a href="index.html">Why Us</a>
-                </li>
-                <li>
-                    <a href="index.html">How It Works</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact Us</a>
-                </li>
-                <li>
-                    <a href="">Repayment Plan</a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-
-    <div class="main-content">
-        <nav>
-            <h2>
-                <label for="nav-toggle" class="hamburger">
-               <span class="las la-bars"></span>
-            </label>
-                <a href=""><img src="img/logo_b.png" width="120px" alt=""></a>
-            </h2>
-
-            <div class="nav-wrapper">
-                <ul>
-                    <li>
-                        <a href="">DiaCrediting</a>
+    <!-- NAV START -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light top-sticky">
+        <div class="container text-dark">
+            <a href="./index.html">
+                <img src="./img/logo_b.png" width="120px" alt="Logo">
+            </a>
+            <button class="navbar-toggler d-lg-none d-inline" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <div class="m-auto"></div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">DiaCrediting</a>
                     </li>
-                    <li>
-                        <a href="#whyus">Why Us</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#works">How It Works</a>
                     </li>
-                    <li>
-                        <a href="#works">How It Works</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#whyus">Why Us</a>
                     </li>
-                    <li>
-                        <a href="contact.html">Contact Us</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
                     </li>
-                    <li>
-                        <a href="">Repayment Plan</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Repayment Plan</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">Faqs</a>
+                    </li>
                 </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <!-- NAV END -->
 
-        <header id="header">
-            <div class="container">
-                <div class="header-content">
-                    <div class="header-text">
-                        <h3 class="pb-2 m-0">Quick Instant loan on DiaCrediting</h3>
-                        <h2 class="pb-2">Seamless and Easy Fast Loan</h2>
-                        <p class="pb-3">Get an instant loan up to ₦200,000 , a flexible low intrest based repayment plan all in one App</p>
-                        <img src="./img/ios-android.png" width="300px" alt="">
+    <header id="header" class="mt-0">
+        <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center text-white text-center">
+                            <div class="col-lg-6 col-md-12 pt-lg-4 mt-lg-5 pt-5 mt-5 fadeIn">
+                                <h1 class="mb-0 pb-0" style="font-size: 1.5rem;">Quick Instant loan on DiaCrediting
+                                </h1>
+                                <h1 class="" style="font-size: 3.5rem;">Seamless and Easy Fast Loan</h1>
+                                <p class="text-center">DIACREDITING, powered by TOBKELENTERPRISES is a completely digitized personal loan app. The app helps you meet all your quick personal finance requirements with just a few simple clicks.</p>
+                                <a href="#"><img src="./img/ios-android.png" width="290px" class="text-center" alt=""></a>
+                            </div>
+                            <div class="d-none d-lg-block col-lg-6 pt-4 mt-4">
+                                <img src="./img/Diacredit-2.png" alt="" class="img-fluid bounce">
+                            </div>
+                        </div>
                     </div>
-                    <div class="header-img">
-                        <img src="./img/Diacredit-2.png" alt="">
+                </div>
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center text-white text-center">
+                            <div class="d-none d-lg-block col-lg-6 pt-4 mt-4">
+                                <img src="./img/diacredit-5.svg" alt="" class="img-fluid bounce">
+                            </div>
+                            <div class="col-lg-6 col-md-12 pt-lg-4 mt-lg-5 pt-5 mt-5 fadeIn">
+                                <h1 class="mb-0 pb-0" style="font-size: 1.5rem;">Get Instant loan</h1>
+                                <h1 class="" style="font-size: 3.5rem;">Solve Your Financial needs</h1>
+                                <p class="text-center">You need to take care of some bills? Worry no more, DiaCrediting got you covered. Apply for instant and fast loan with low interest rate, get credited instantly.</p>
+                                <a href="#"><img src="./img/ios-android.png" width="290px" class="text-center" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center text-white text-center">
+                            <div class="col-lg-6 col-md-12 pt-lg-4 mt-lg-5 pt-5 mt-5 fadeIn">
+                                <h1 class="mb-0 pb-0" style="font-size: 1.5rem;">Apply For Instant loan</h1>
+                                <h1 class="" style="font-size: 3.5rem;">Get Easy and Fast Loan</h1>
+                                <p class="text-center">You get instant personal loan disbursed directly to your bank account with super affordable interest rates.</p>
+                                <a href="#"><img src="./img/ios-android.png" width="290px" class="text-center" alt=""></a>
+                            </div>
+                            <div class="d-none d-lg-block col-lg-6 pt-4 mt-4">
+                                <img src="./img/diacredit-3.png" alt="" class="img-fluid bounce-side">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="works" class="py-5 bg-light">
+            <div class="container">
+                <h1 class="mb-4">How It Works</h1>
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-6 py-3">
+                        <span class="icons las la-clipboard-list"></span>
+                        <div>
+                            <h4>Apply for loan</h4>
+                            <p>Fill out an online application that just takes a few minutes to complete.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 py-3">
+                        <span class="icons las la-check-circle"></span>
+                        <div>
+                            <h4>Process for Approvals</h4>
+                            <p>We'll Review your information to ensure that you are confirmed same day.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 py-3">
+                        <span class="icons las la-hand-holding-usd"></span>
+                        <div>
+                            <h4>Instant Funding</h4>
+                            <p>Money is deposited in your account instantly once you've been accepted.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 py-3">
+                        <span class="icons las la-money-bill-wave"></span>
+                        <div>
+                            <h4>Repayment is easy.</h4>
+                            <p>Conveniently payback through our wide repayment network.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <main>
-            <section id="whyus" class="grid">
-                <h1 class="">Why Choose Us?</h1>
-                <div class="container">
-                    <div class="text-center">
-                        <img src="./img/why.png" alt="">
+        <section id="whyus" class="mb-4 py-5 text-white">
+            <h1 class="mb-4">Why Choose Us?</h1>
+            <div class="container text-white">
+                <div class="row align-items-center text-lg-start text-center">
+                    <div class="col-lg-5 col-md-12 text-center">
+                        <img src="./img/why.png" class="img-fluid bounce" alt="">
                     </div>
                     <!-- <h1 class="">Why Choose Us?</h1> -->
-                    <div class="recent-flex">
-                        <div class="flex-content">
-                            <span class="las la-clock"></span>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="d-lg-flex flex-lg-row flex-md-column justify-content-md-center align-items-md-center">
+                            <span class="icons text-white me-4 las la-clock"></span>
                             <div>
-                                <h4>Quick approval</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, corrupti accusantium fugit impedit molestiae ipsam repellat eius consectetur officia commodi.</p>
+                                <h4>Quick approval, immediate disbursement</h4>
+                                <p>Get a decision on your loan and receive your money instantly without delay.</p>
                             </div>
                         </div>
-                        <div class="flex-content">
-                            <span class="las la-recycle"></span>
+                        <div class="d-lg-flex flex-lg-row flex-md-column justify-content-md-center align-items-md-center">
+                            <span class="icons text-white me-4 las la-recycle"></span>
                             <div>
                                 <h4>Better offer for repeaters</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, corrupti accusantium fugit impedit molestiae ipsam repellat eius consectetur officia commodi.</p>
+                                <p>Repay your loan on time and get up to NGN 100,000 on your next loans and other benefits.
+                                </p>
                             </div>
                         </div>
-                        <div class="flex-content">
-                            <span class="las la-calculator"></span>
+                        <div class="d-lg-flex flex-lg-row flex-md-column justify-content-md-center align-items-md-center">
+                            <span class="icons text-white me-4 las la-calculator"></span>
                             <div>
                                 <h4>Interest rate transparency</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, corrupti accusantium fugit impedit molestiae ipsam repellat eius consectetur officia commodi.</p>
+                                <p>Use the loan calculator to calculate charges applicable for the loan amount of choice.
+                                </p>
                             </div>
                         </div>
-                        <div class="flex-content">
-                            <span class="las la-cash-register"></span>
+                        <div class="d-lg-flex flex-lg-row flex-md-column justify-content-md-center align-items-md-center">
+                            <span class="icons text-white me-4 las la-cash-register"></span>
                             <div>
                                 <h4>Flexible repayment options</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, corrupti accusantium fugit impedit molestiae ipsam repellat eius consectetur officia commodi.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="works" class="py-5 bg-light">
-                <div class="container m-auto">
-                    <h1 class="mb-4">How It Works</h1>
-                    <div class="recent-grid">
-                        <div class="grid-content">
-                            <span class="las la-clipboard-list"></span>
-                            <div>
-                                <h4>Apply for loan</h4>
-                                <p>Get a decision on your loan and receive your money Get a decision on your loan and receive your money
-                                </p>
-                            </div>
-                        </div>
-                        <div class="grid-content">
-                            <span class="las la-check-circle"></span>
-                            <div>
-                                <h4>Process for Approvals</h4>
-                                <p>Get a decision on your loan and receive your money Get a decision on your loan and receive your money
-                                </p>
-                            </div>
-                        </div>
-                        <div class="grid-content">
-                            <span class="las la-hand-holding-usd"></span>
-                            <div>
-                                <h4>Instant Funding</h4>
-                                <p>Get a decision on your loan and receive your money Get a decision on your loan and receive your money
-                                </p>
-                            </div>
-                        </div>
-                        <div class="grid-content">
-                            <span class="las la-money-bill-wave"></span>
-                            <div>
-                                <h4>Repayment is easy.</h4>
-                                <p>Get a decision on your loan and receive your money Get a decision on your loan and receive your money
+                                <p>In case of unforeseen circumstances through no fault of the borrower, get 30 days extension.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="aboutus" class="grid">
-                <h1 class="mb-4">About Us</h1>
-                <div class="container">
-                    <div class="text-center">
-                        <img src="./img/about-icon.png" alt="">
+        <section id="aboutus" class="my-5">
+            <h1 class="mb-4">About Us</h1>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12">
+                        <img src="./img/about-icon.png" class="img-fluid side-bounce" alt="">
                     </div>
-                    <div class="grid-content">
-                        <p><strong>DiaCrediting</strong> dolor, sit amet consectetur adipisicing elit. Enim quibusdam explicabo, alias ipsa, facilis obcaecati velit corrupti amet ratione, officiis aspernatur voluptatem quo. Veritatis earum quod obcaecati
-                            provident perspiciatis quo numquam magnam maxime. Quaerat amet perferendis accusamus, expedita odit reiciendis! Laborum minima aliquam repudiandae reprehenderit adipisci delectus temporibus rerum reiciendis atque voluptate
-                            exercitationem velit itaque deleniti magnam sunt officia ullam voluptatum ipsa, esse iste ipsam nulla est cumque. Adipisci quidem officiis nam corporis unde, ea recusandae quo cum maxime doloremque?</p>
+                    <div class="col-lg-7 col-md-12">
+                        <p><strong>DIACREDITING</strong>, powered by TOBKELENTERPRISES, is a completely digitized personal loan app.The app helps you meet all your quick personal finance requirements with just a few simple clicks. <br /> <br /> You get instant
+                            personal loan disbursed directly to your bank account with super affordable interest rates.
+                            <br /> <br /> This app enables you to complete the entire loan application without any physical documentation.paperless transaction.
+                            <br /> <br /> You just have to: <br /> • Install the diacrediting app from Google Play Store Or from Apple Store. <br />• Login, enter a few details.<br /> • Get real-time credit assessment done.<br /> • Get instant disbursal
+                            during business hours.
+                            <br /> <strong>Note</strong>: You just need to keep your KYC and Bank details handy.
+                        </p>
                     </div>
-
                 </div>
-            </section>
-        </main>
-    </div>
+            </div>
+        </section>
 
-    <footer class="">
-        <section class="mb-0 pb-4 apply">
+        <section id="faqs" class="py-5">
+            <div class="container">
+                <h3 class="text-uppercase text-center">Frequently asked questions</h3>
+                <div class="accordion accordion-flush pt-5" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                How long will it take to register?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Using your android phone, you can register your account in 1 minute.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                How to apply?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Register using your android phone and submit necessary information (BVN, job information)</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                How to increase the loan amount?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Maintain a stable loan record, and please repay the loan as scheduled. We will increase your loan amount from time to time.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                What are the basic conditions for applying for loan using Diacrediting?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Nigerian, 18-55 years old.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <section class="mb-0 py-4 bg-dark text-white">
             <div class="container">
                 <h5 class="mb-4">Apply for Instant Loan with low interest on DiaCrediting</h5>
                 <div>
@@ -200,66 +272,60 @@
             </div>
         </section>
 
-        <section class=" m-0 py-5">
+        <section class="m-0 py-5">
 
-            <div class="container">
-                <div class="footer-grid text-white">
-                    <div class="grid-content">
-                        <h5>Get In Touch</h5>
+            <div class="container-fluid">
+                <div class="row text-white">
+                    <div class="col-lg-3 col-md-6 mb-3">
+                        <h5 class="mb-4">Get In Touch</h5>
                         <div>
                             <form action="./php/action.php" method="post" enctype="multipart/form-data">
-                                <div class="form-group">
-                                    <input type="text" name="name" id="" placeholder="Name" required>
+                                <div class="form-group mb-1">
+                                    <input type="text" name="name" class="form-control text-start bg-transparent text-light" placeholder="Name" required>
+                                </div>
+                                <div class="form-group mb-1">
+                                    <input type="email" name="email" class="form-control text-start bg-transparent text-light" placeholder="Email" required>
+                                </div>
+                                <div class="form-group mb-1">
+                                    <textarea name="message" class="form-control text-start bg-transparent text-light" cols="30" rows="3" placeholder="Your message"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="email" id="" placeholder="Email" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" id="" cols="30" rows="3" placeholder="Your message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" name="send_msg" id="">Send</button>
+                                    <button type="submit" name="send_msg" class="form-control btn btn-primary text-light">Send</button>
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <div class="grid-content">
-                        <h5>Our Contact</h5>
+                    <div class="col-lg-3 col-md-6 mb-3 f-contact">
+                        <h5 class="mb-4">Our Contact</h5>
                         <div>
-                            <h6>Hotline:
-                                <a href="tel:+2348038615124">+2348 03861 5124</a>
-
-                            </h6>
+                            <h6>Hotline:</h6>
+                            <a href="tel:+2348038615124">+2348 03861 5124</a>
                         </div>
                         <div>
-                            <h6>Email:
-                                <a href="mailto:support-ng@diacrediting.com">support-ng@diacrediting.com</a>
-
-                            </h6>
+                            <h6>Email:</h6>
+                            <a href="mailto:contact@diacrediting.com">contact@diacrediting.com</a>
                         </div>
                         <div>
-                            <h6>Address:
-                                <a>Lagos, Nigeria</a>
-
-                            </h6>
+                            <h6>Address:</h6>
+                            <a>Lagos, Nigeria</a>
                         </div>
                     </div>
-                    <div class="grid-content">
-                        <h5>Social Handles</h5>
+                    <div class="col-lg-3 col-md-6 mb-3">
+                        <h5 class="mb-4">Social Handles</h5>
                         <div class="social-handle">
-                            <a href="http://"><span class="lab la-facebook"></span></a>
-                            <a href="http://"><span class="lab la-whatsapp"></span></a>
-                            <a href="http://"><span class="lab la-twitter"></span></a>
-                            <a href="http://"><span class="lab la-instagram"></span></a>
+                            <a href="https://www.facebook.com/profile.php?id=100080632569492" class="" title="Facebook"><span class="lab la-facebook"></span></a>
+                            <a href="https://wa.me/message/TN4ULT2ROBDJO1" class="" title="WhatsApp"><span class="lab la-whatsapp"></span></a>
+                            <a href="http://" class="" title="Twitter"><span class="lab la-twitter"></span></a>
+                            <a href="https://www.instagram.com/diacrediting/" class="" title="Instagram"><span class="lab la-instagram"></span></a>
                         </div>
                     </div>
-                    <div class="grid-content">
-                        <h5 class="text-left">
+                    <div class="col-lg-3 col-md-6 mb-3">
+                        <h5 class="mb-4 text-start">
                             <a href="">
                                 <img src="img/logo_w.png" width="120px" alt="">
                             </a>
                         </h5>
-                        <div>
+                        <div class="f-details">
                             <p>Quick Instant loan on DiaCrediting.</p>
                             <p>Seamless and Easy Fast Loan.</p>
                             <p>Get an instant loan up to ₦200,000. A flexible low intrest based repayment plan all in one App</p>
@@ -270,7 +336,7 @@
 
         </section>
 
-        <section class=" m-0 p-2 copy-right">
+        <section class="m-0 p-2 copy-right">
             <P>&copy;
                 <script>
                     var currentYear = new Date().getFullYear();
@@ -282,6 +348,9 @@
     </footer>
 
     <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script src="./js/script.js"></script>
 </body>
 
